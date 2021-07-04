@@ -3,7 +3,7 @@
 import json #json import edildi
 with open('mujdat.json','r') as json_dosya:#mujdat.json dosyası json_dosya olarak okuma modunda açıldı
     dosya = json.load(json_dosya)#son_dosya yüklenerek dosya değişkenine atandi
-kimlik ={}#kimlik adında bir sözlük oluşturuldu
+#kimlik ={}#kimlik adında bir sözlük oluşturuldu
 #print(dosya)
 #for key,value in dosya.items(): #dosyadaki tüm anahtar değer çiftleri için
     #print(type(dosya.items())) #dosyadan alınan veri tipi kontrol edildi
